@@ -16,7 +16,11 @@
 
 ## Patters
 
+<h3>Behavioral</h3>
 * Observer
+
+<h3>Structural</h3>
+* Decorator
 
 ## Dependencies
 
@@ -50,7 +54,7 @@ to define
 
 ## Documentation
 
-* [Link to some examples](https://www.tutorialspoint.com/design_pattern/observer_pattern.htm)
+* [Link to some examples](https://www.tutorialspoint.com/design_pattern)
 
 ## FAQ
 

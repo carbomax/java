@@ -1,4 +1,4 @@
-package observer.propertyChangeListener;
+package observer.property;
 
 public class PropertyChangeListenerDemo {
 
@@ -6,6 +6,6 @@ public class PropertyChangeListenerDemo {
         PCLNewsAgency observable = new PCLNewsAgency();
         PCLNewsChannel observer = new PCLNewsChannel();
         observable.addPropertyChangeListener(observer);
-        observable.setNews("Nuevas noticias");
+        observable.setNews("Marvel news");
     }
 }

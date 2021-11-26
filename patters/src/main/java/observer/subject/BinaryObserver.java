@@ -1,9 +1,11 @@
 package observer.subject;
 
-public class BinaryObserver extends Observer {
+import static java.lang.System.*;
+
+public class BinaryObserver implements Observer {
 
     @Override
     public void update(Subject subject) {
-        System.out.println( "Octal String: " + Integer.toBinaryString((Integer) subject.getState()) );
+        out.println( "Octal String: " + Integer.toBinaryString((Integer) subject.getState()) );
     }
 }
